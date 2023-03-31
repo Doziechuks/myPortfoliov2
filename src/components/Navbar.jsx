@@ -8,7 +8,7 @@ const Navbar = () => {
     setNav(!nav);
   }
   return (
-    <div className="w-full text-white px-[2rem] sm:px-[4rem] py-[1rem] flex justify-between items-center">
+    <div className="w-full text-white mb-[2rem] px-[2rem] sm:px-[4rem] py-[1rem] flex justify-between items-center">
       <h1
         className='font-["Audiowide"] text-[1.5rem] sm:text-[2rem] cursor-pointer'
         onClick={() => setNav(false)}
