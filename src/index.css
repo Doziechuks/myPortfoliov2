@@ -4,5 +4,8 @@
 
 *{
   font-family: 'Roboto', sans-serif;
-  font-family: 'Audiowide', cursive;
+
+}
+body{
+   background-color: #0C122C;
 }
