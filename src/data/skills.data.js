@@ -1,12 +1,12 @@
-import html from "../../assets/html.png";
-import css from "../../assets/css.png";
-import js from "../../assets/js.png";
-import react from "../../assets/react.png";
-import redux from "../../assets/redux.png";
-import firebase from "../../assets/firebase.png";
-import tailwind from "../../assets/tailwind.png";
-import materialUI from "../../assets/material UI.png";
-import git from "../../assets/git.png";
+import html from "../assets/html1.png";
+import css from "../assets/css1.png";
+import js from "../assets/jsgold1.png";
+import react from "../assets/react.png";
+import redux from "../assets/redux1.png";
+import firebase from "../assets/firebase1.png";
+import tailwind from "../assets/tailwind1.png";
+import materialUI from "../assets/MUI1.png";
+import git from "../assets/git.png";
 
 const skillsData = [
   {
