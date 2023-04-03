@@ -1,18 +1,17 @@
-import chat from "../../assets/chat.jpg";
-import shop from "../../assets/shop5.jpg";
-import paco from "../../assets/landingPagepng.png";
-import paco2023 from "../../assets/paco.jpg";
-import movie from "../../assets/movie.jpg";
-import todo from "../../assets/to-do.jpg";
-import quiz from "../../assets/quiz.jpg";
-import jinli from "../../assets/jinli.png";
-import myPortfolio from "../../assets/myportfolio.png";
+import chat from "../assets/chat.jpg";
+import shop from "../assets/shop5.jpg";
+import paco from "../assets/landingPagepng.png";
+import paco2023 from "../assets/paco.jpg";
+import movie from "../assets/movie.jpg";
+import todo from "../assets/to-do.jpg";
+import quiz from "../assets/quiz.jpg";
+import jinli from "../assets/jinli.png";
+import myPortfolio from "../assets/myportfolio.png";
 
 const projectData = [
   {
     title: "chat app",
     imageUrl: chat,
-    size: "large",
     id: 1,
     gitLink: "https://github.com/Doziechuks/chatApp",
     liveUrl: "https://letstalk-rho.vercel.app/",

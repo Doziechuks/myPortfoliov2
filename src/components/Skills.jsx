@@ -6,7 +6,7 @@ import SkillsItems from './SkillsItems';
 
 const Skills = () => {
   return (
-    <div className="w-full px-[2rem] sm:px-[4rem] mb-[2rem] flex flex-col items-center justify-center">
+    <div className="w-full px-[2rem] sm:px-[4rem] mb-[4rem] sm:mb-[8rem] flex flex-col items-center justify-center">
       <Title>skills</Title>
       <div className='w-full grid grid-cols-3 sm:flex lg:justify-between sm:items-center justify-center gap-[3rem]'>
         {

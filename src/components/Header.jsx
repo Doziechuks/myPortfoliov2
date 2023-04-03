@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import frontend from "../assets/fullbg.png";
+import CustomButton from "./CustomButton";
 
 const Header = () => {
   const [showInfo, setShowInfo] = useState(false);
@@ -7,7 +8,7 @@ const Header = () => {
     setShowInfo(!showInfo);
   };
   return (
-    <div className="w-full px-[2rem] sm:px-[4rem] mb-[2rem] text-white flex justify-center items-center">
+    <div className="w-full px-[2rem] sm:px-[4rem] mb-[4rem] sm:mb-[5rem] text-white flex justify-center items-center">
       <div className="w-full flex flex-col-reverse lg:gap-[2rem] lg:flex-row justify-between items-center">
         <div className="w-full lg:max-w-[40rem]">
           <h1 className="w-full text-[1.5rem] md:text-[2.5rem] text-center lg:text-left mb-[1rem] font-bold capitalize">
@@ -25,7 +26,7 @@ const Header = () => {
             software enginnering space gives me a great opportunity to maximize
             my potentials in these areas...
             <br />
-            <br className={`sm:hidden ${showInfo && 'hidden'}`} />
+            <br className={`sm:hidden ${showInfo && "hidden"}`} />
             As a frontend developer, I have strong skills and expertise in
             JavaScript, React.js, HTML, CSS, and web standards. <br />I am very
             enthusiastic and meticulous about my job, and I give in my best and
@@ -36,12 +37,9 @@ const Header = () => {
             passion for learning and growth, I am always open to new learning
             opportunities, as that in turn enhances my growth.
           </p>
-          <button
-            className="block w-full max-w-[6rem] sm:max-w-[8rem] mx-auto lg:mx-0 bg-red-400 py-[0.6rem] sm:py-[0.7rem] px-[0.7rem] sm:px-[1rem] text-[0.8rem] sm:text-[1rem] cursor-pointer rounded-md"
-            onClick={handleInfoBtn}
-          >
+          <CustomButton onClick={handleInfoBtn}>
             {showInfo ? "show less" : "show more"}
-          </button>
+          </CustomButton>
         </div>
         <img
           src={frontend}
