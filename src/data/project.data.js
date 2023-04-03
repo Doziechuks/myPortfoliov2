@@ -1,10 +1,10 @@
-import chat from "../assets/chat.jpg";
-import shop from "../assets/shop5.jpg";
-import paco from "../assets/landingPagepng.png";
+import chat from "../assets/chat.png";
+import shop from "../assets/cart.png";
+import paco from "../assets/landingPage.png";
 import paco2023 from "../assets/paco.jpg";
-import movie from "../assets/movie.jpg";
-import todo from "../assets/to-do.jpg";
-import quiz from "../assets/quiz.jpg";
+import movie from "../assets/movie.png";
+import todo from "../assets/todo.png";
+import quiz from "../assets/quiz.png";
 import jinli from "../assets/jinli.png";
 import myPortfolio from "../assets/myportfolio.png";
 
