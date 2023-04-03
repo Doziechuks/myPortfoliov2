@@ -14,13 +14,17 @@ const Contact = () => {
       <Title>contact</Title>
       <div className="w-full flex justify-center items-center gap-[1rem] sm:gap-[3rem]">
         <div
-          className="border cursor-pointer"
-          onClick={() => window.open("mailto:doziechuks1010@gmail.com?", "_blank")}
+          className="cursor-pointer"
+          onClick={() =>
+            window.open(
+              "https://mail.google.com/mail/?view=cm&fs=1&to=doziechuks1010@gmail.com&su=SUBJECT&body", 'blank'
+            )
+          }
         >
           <AiOutlineMail className="text-white text-[2rem] sm:text-[4rem] md:text-[6rem] md:hover:text-[#1D2C67] ease-in-out duration-[0.5s]" />
         </div>
         <div
-          className="border cursor-pointer"
+          className="cursor-pointer"
           onClick={() =>
             window.open("https://www.linkedin.com/in/chuka-obodozie/", "_blank")
           }
@@ -28,7 +32,7 @@ const Contact = () => {
           <AiFillLinkedin className="text-white text-[2rem] sm:text-[4rem] md:text-[6rem] md:hover:text-[#1D2C67] ease-in-out duration-[0.5s]" />
         </div>
         <div
-          className="border cursor-pointer"
+          className="cursor-pointer"
           onClick={() =>
             window.open("https://twitter.com/ObodozieChuka", "_blank")
           }
@@ -36,7 +40,7 @@ const Contact = () => {
           <AiFillTwitterCircle className="text-white text-[2rem] sm:text-[4rem] md:text-[6rem] md:hover:text-[#1D2C67] ease-in-out duration-[0.5s]" />
         </div>
         <div
-          className="border cursor-pointer"
+          className="cursor-pointer"
           onClick={() => window.open("https://github.com/Doziechuks", "_blank")}
         >
           <AiOutlineGithub className="text-white text-[2rem] sm:text-[4rem] md:text-[6rem] md:hover:text-[#1D2C67] ease-in-out duration-[0.5s]" />
@@ -46,4 +50,4 @@ const Contact = () => {
   );
 }
 
-export default Contact
+export default Contact;
