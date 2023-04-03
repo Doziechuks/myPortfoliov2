@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import frontend from "../assets/fullbg.png";
 import CustomButton from "./CustomButton";
+import resume from "../assets/obodozie chuka.pdf";
 
 const Header = () => {
   const [showInfo, setShowInfo] = useState(false);
@@ -37,9 +38,14 @@ const Header = () => {
             passion for learning and growth, I am always open to new learning
             opportunities, as that in turn enhances my growth.
           </p>
-          <CustomButton onClick={handleInfoBtn}>
-            {showInfo ? "show less" : "show more"}
-          </CustomButton>
+          <div className="w-full flex items-center justify-center sm:justify-start gap-[1rem]">
+            <CustomButton onClick={handleInfoBtn}>
+              {showInfo ? "show less" : "show more"}
+            </CustomButton>
+            <CustomButton onClick={() => window.open(`${resume}`, "_blank")}>
+              download resume
+            </CustomButton>
+          </div>
         </div>
         <img
           src={frontend}

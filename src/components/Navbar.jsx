@@ -15,7 +15,7 @@ const Navbar = () => {
       >
         CHUKA.
       </h1>
-      <ul className="w-full max-w-[25rem] sm:flex justify-between items-center hidden">
+      <ul className="w-full max-w-[30rem] sm:flex justify-between items-center hidden">
         <li className="py-[0.5rem] px-[1rem] font-bold uppercase cursor-pointer hover:text-gray-400">
           about
         </li>
@@ -24,6 +24,9 @@ const Navbar = () => {
         </li>
         <li className="py-[0.5rem] px-[1rem] font-bold uppercase cursor-pointer hover:text-gray-400">
           projects
+        </li>
+        <li className="py-[0.5rem] px-[1rem] font-bold uppercase cursor-pointer hover:text-gray-400">
+          contact
         </li>
         <a
           href={resume}
@@ -62,6 +65,12 @@ const Navbar = () => {
           className="py-[2rem] pl-[2rem] border-b border-gray-500 uppercase font-bold cursor-pointer"
         >
           projects
+        </li>
+        <li
+          onClick={() => setNav(false)}
+          className="py-[2rem] pl-[2rem] border-b border-gray-500 uppercase font-bold cursor-pointer"
+        >
+          contact
         </li>
         <a
           href={resume}
