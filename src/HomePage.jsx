@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './components/Contact';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Project from './components/Project';
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Header />
       <Skills />
       <Project />
+      <Contact />
     </div>
   )
 }
