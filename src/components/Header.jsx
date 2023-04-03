@@ -9,7 +9,7 @@ const Header = () => {
     setShowInfo(!showInfo);
   };
   return (
-    <div className="w-full px-[2rem] sm:px-[4rem] mb-[4rem] sm:mb-[5rem] text-white flex justify-center items-center">
+    <div id="a" className="w-full px-[2rem] sm:px-[4rem] mb-[4rem] sm:mb-[5rem] text-white flex justify-center items-center">
       <div className="w-full flex flex-col-reverse lg:gap-[2rem] lg:flex-row justify-between items-center">
         <div className="w-full lg:max-w-[40rem]">
           <h1 className="w-full text-[1.5rem] md:text-[2.5rem] text-center lg:text-left mb-[1rem] font-bold capitalize">

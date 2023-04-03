@@ -1,31 +1,57 @@
-import React from 'react';
+import React from "react";
 import {
   AiFillLinkedin,
   AiFillTwitterCircle,
   AiOutlineGithub,
   AiOutlineMail,
 } from "react-icons/ai";
+import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
+  const handleScrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="w-full bg-[#1D2C67] px-[3rem] sm:px-[4rem] py-[3rem] sm:py-[4rem] flex flex-col items-center justify-center">
-      <h2 className='w-full text-white font-["Audiowide"] text-[1.5rem] sm:text-[2rem] mb-[2rem] cursor-pointer text-center capitalize'>
+      <h2
+        className='w-full text-white font-["Audiowide"] text-[1.5rem] sm:text-[2rem] mb-[2rem] cursor-pointer text-center capitalize'
+        onClick={handleScrollTop}
+      >
         obodozie chuka
       </h2>
-      <ul className="w-full sm:max-w-[30rem] mb-[2rem] text-white flex flex-col justify-center items-center sm:flex-row sm:justify-between">
-        <li className="mb-[1.5rem] sm:mb-0 px-[1rem] uppercase cursor-pointer hover:text-gray-400">
+      <div className="w-full sm:max-w-[30rem] mb-[2rem] text-white flex flex-col justify-center items-center sm:flex-row sm:justify-between">
+        <HashLink
+          smooth
+          to="/about#a"
+          className="mb-[1.5rem] sm:mb-0 px-[1rem] uppercase cursor-pointer hover:text-gray-400"
+        >
           about
-        </li>
-        <li className="mb-[1.5rem] sm:mb-0 px-[1rem] uppercase cursor-pointer hover:text-gray-400">
+        </HashLink>
+        <HashLink
+          smooth
+          to="/skills#s"
+          className="mb-[1.5rem] sm:mb-0 px-[1rem] uppercase cursor-pointer hover:text-gray-400"
+        >
           skills
-        </li>
-        <li className="mb-[1.5rem] sm:mb-0 px-[1rem] uppercase cursor-pointer hover:text-gray-400">
+        </HashLink>
+        <HashLink
+          smooth
+          to="/projects#p"
+          className="mb-[1.5rem] sm:mb-0 px-[1rem] uppercase cursor-pointer hover:text-gray-400"
+        >
           projects
-        </li>
-        <li className="px-[1rem] uppercase cursor-pointer hover:text-gray-400">
+        </HashLink>
+        <HashLink
+          smooth
+          to="/contact#c"
+          className="px-[1rem] uppercase cursor-pointer hover:text-gray-400"
+        >
           contact
-        </li>
-      </ul>
+        </HashLink>
+      </div>
       <div className="w-full mb-[2rem] text-white flex justify-center items-center">
         <div
           className="cursor-pointer mr-[1rem]"
@@ -65,6 +91,6 @@ const Footer = () => {
       <p className="text-gray-400">&copy; obodozie chuka. All right reserved</p>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;
