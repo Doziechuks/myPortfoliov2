@@ -87,7 +87,7 @@ const Footer = () => {
           <AiOutlineGithub className="text-white text-[2rem] sm:text-[4rem] md:text-[3rem] md:hover:text-[#0C122C] ease-in-out duration-[0.5s]" />
         </div>
       </div>
-      <div className="w-full border mb-[2rem]" />
+      <div className="w-full border bg-white mb-[2rem]" />
       <p className="text-gray-400">&copy; obodozie chuka. All right reserved</p>
     </div>
   );
