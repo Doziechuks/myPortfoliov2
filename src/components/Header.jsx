@@ -9,7 +9,10 @@ const Header = () => {
     setShowInfo(!showInfo);
   };
   return (
-    <div id="a" className="w-full px-[2rem] sm:px-[4rem] mb-[4rem] sm:mb-[5rem] text-white flex justify-center items-center">
+    <div
+      id="a"
+      className="w-full px-[2rem] sm:px-[4rem] mb-[4rem] sm:mb-[5rem] text-white flex justify-center items-center"
+    >
       <div className="w-full flex flex-col-reverse lg:gap-[2rem] lg:flex-row justify-between items-center">
         <div className="w-full lg:max-w-[40rem]">
           <h1 className="w-full text-[1.5rem] md:text-[2.5rem] text-center lg:text-left mb-[1rem] font-bold capitalize">
@@ -18,25 +21,30 @@ const Header = () => {
           <p
             className={`w-full overflow-hidden mb-[1rem] text-justify leading-[2rem] ease-in-out duration-[1s] ${
               showInfo
-                ? "h-[42rem] xl:h-[22rem] lg:h-[30rem] md:h-[22rem]"
-                : "h-[12rem] xl:h-[6rem] md:h-[6rem] lg:h-[8.5rem]"
+                ? "h-[52rem] xl:h-[27rem] lg:h-[36rem] md:h-[26.5rem]"
+                : "h-[13.5rem] xl:h-[8rem] md:h-[8rem] lg:h-[9.5rem]"
             }`}
           >
-            Solving problems, innovations, team work, and collaboration has
-            always been things I have a penchant for. I realised that the
-            software enginnering space gives me a great opportunity to maximize
-            my potentials in these areas...
+            I have a strong experience in building modern and responsive web
+            applications using React. I have a strong understanding of the React
+            ecosystem, including React Router, Redux, and JSX, and I'm
+            comfortable using modern front-end build tools like Webpack, Babel,
+            and ESLint.
             <br />
             <br className={`sm:hidden ${showInfo && "hidden"}`} />
-            As a frontend developer, I have strong skills and expertise in
-            JavaScript, React.js, HTML, CSS, and web standards. <br />I am very
-            enthusiastic and meticulous about my job, and I give in my best and
-            never give up on tasks and projects until fully executed to clients
-            taste and standard. I am also a passionate programmer, and I enjoy
-            bringing ideas and solutions that help humanity. I always add value
-            to any place or system I find myself in. <br /> Due to my love and
-            passion for learning and growth, I am always open to new learning
-            opportunities, as that in turn enhances my growth.
+            My passion for building user-friendly interfaces and attention to
+            detail drive me to create high-quality and visually appealing
+            applications. I believe that great software starts with great
+            communication and collaboration, so I work closely with designers,
+            product owners, and other stakeholders to ensure that every project
+            I work on is a success. <br />
+            In addition to my technical skills, I have experience working in
+            agile environments and using version control systems like Git. I'm
+            always looking to improve my skills and stay up-to-date with the
+            latest front-end development trends and best practices.
+            <br /> If you're looking for a dedicated and experienced frontend
+            developer to help bring your ideas to life, I'd love to be that
+            developer. You can reach out to me
           </p>
           <div className="w-full flex items-center justify-center sm:justify-start gap-[1rem]">
             <CustomButton onClick={handleInfoBtn}>
