@@ -69,8 +69,8 @@ const projectData = [
     title: "my portfolio",
     imageUrl: myPortfolio,
     id: 9,
-    gitLink: "https://github.com/Doziechuks/obodozie_chuka",
-    liveUrl: "https://glamour-clothing-app.vercel.app/",
+    gitLink: "https://github.com/Doziechuks/myPortfoliov2",
+    liveUrl: "https://chukaobodozie.vercel.app/",
   },
 ];
 

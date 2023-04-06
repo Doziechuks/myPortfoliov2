@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import resume from "../assets/obodozie chuka.pdf";
+import resume from "../assets/Chuka Obodozie.pdf";
 import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {

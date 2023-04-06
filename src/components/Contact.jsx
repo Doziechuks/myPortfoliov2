@@ -11,7 +11,7 @@ import Title from './Title';
 const Contact = () => {
   return (
     <div id='c' className="w-full px-[2rem] sm:px-[4rem] mb-[4rem] sm:mb-[8rem] flex flex-col items-center justify-center">
-      <Title>contact</Title>
+      <Title isRed>contact</Title>
       <div className="w-full flex justify-center items-center gap-[1rem] sm:gap-[3rem]">
         <div
           className="cursor-pointer"
