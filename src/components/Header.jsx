@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import frontend from "../assets/fullbg.png";
 import CustomButton from "./CustomButton";
-import resume from "../assets/Chuka Obodozie.pdf";
+import resume from "../assets/Obodozie_Chuka.pdf";
 
 const Header = () => {
   const [showInfo, setShowInfo] = useState(false);

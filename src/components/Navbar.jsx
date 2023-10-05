@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import resume from "../assets/Chuka Obodozie.pdf";
-import { HashLink } from 'react-router-hash-link';
+import resume from "../assets/Obodozie_Chuka.pdf";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
-  }
+  };
 
   return (
     <div className="w-full text-white mb-[2rem] px-[2rem] sm:px-[4rem] py-[1rem] flex justify-between items-center">
@@ -109,7 +109,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
-
+export default Navbar;

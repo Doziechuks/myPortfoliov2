@@ -6,7 +6,6 @@ import movie from "../assets/movie.png";
 import todo from "../assets/todo.png";
 import quiz from "../assets/quiz.png";
 import jinli from "../assets/jinli.png";
-import myPortfolio from "../assets/myportfolio.png";
 
 const projectData = [
   {
@@ -64,13 +63,6 @@ const projectData = [
     id: 8,
     gitLink: "https://github.com/Doziechuks/Jinli-portfolio",
     liveUrl: "https://sample-gamma-nine.vercel.app/",
-  },
-  {
-    title: "my portfolio",
-    imageUrl: myPortfolio,
-    id: 9,
-    gitLink: "https://github.com/Doziechuks/myPortfoliov2",
-    liveUrl: "https://chukaobodozie.vercel.app/",
   },
 ];
 
