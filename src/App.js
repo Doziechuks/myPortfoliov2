@@ -4,8 +4,9 @@ import HomePage from "./HomePage";
 function App() {
   return (
     <>
-     <HomePage />
-     <FixedNav />
+      <HomePage />
+      <FixedNav />
+      <h1>hello world</h1>
     </>
   );
 }
