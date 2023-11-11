@@ -6,7 +6,6 @@ function App() {
     <>
       <HomePage />
       <FixedNav />
-      <h1>hello world</h1>
     </>
   );
 }
